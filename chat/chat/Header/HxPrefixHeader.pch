@@ -1,0 +1,35 @@
+//
+//  HxPrefixHeader.pch
+//  chat
+//
+//  Created by 闫继祥 on 2019/7/23.
+//  Copyright © 2019 闫继祥. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+
+#ifndef HxPrefixHeader_pch
+#define HxPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIColor+YMHex.h"
+#import "LXMacro.h"
+#import "ApiUrlHeader.h"
+#import "UIView+LLExtension.h"
+#import "NSUserDefaultTools.h"
+
+#import "DialogTool.h"
+#import "PPNetworkHelper.h"
+#import "MBProgressHUD.h"
+
+#import "LQPopUpView.h"
+
+
+#endif /* HxPrefixHeader_pch */
+#endif
+
+
+
